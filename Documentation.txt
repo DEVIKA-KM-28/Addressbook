@@ -1,0 +1,99 @@
+DOCUMENTATION
+
+NAME : Devika K M
+DATE : 27-09-2025
+PROJECT NAME : ADDRESSBOOK 
+--------------------------------------
+This is a simple Address Book program
+written in C
+
+Purpose:
+Create contacts
+Search contacts
+Edit contacts
+Delete contacts
+List all contacts
+Save contacts to a file (contacts.csv)
+Exit
+
+Limitations:
+Maximum 100 contacts
+Name should only contain alphabets and space
+Phone number must be 10 digits
+Email must be in correct formate
+
+Address Book Menu:
+1. Create Contact
+2. Search Contact
+3. Edit Contact
+4. Delete Contact
+5. List all Contacts
+6. Save Contacts
+7. Exit
+
+
+Example Run:-createContact
+Enter choice: 1
+Enter the details to create a contact:
+Enter name: Devika
+Enter phone: 9876543210
+Enter email: devika@mail.com
+Contact added successfully!
+
+
+Example Run:- searchContact
+Enter your choice: 2
+1.Search by name
+2.Search by phone
+3.Search by email
+Enter your choice
+3
+Enter the email:
+bob@company.com
+Found at Index : 2
+Name  : Bob Johnson
+Phone : 1112223333
+Email : bob@company.com
+
+
+
+Example Run:-editContact
+Enter your choice: 3
+1.Search by name
+2.Search by phone
+3.Search by email
+Enter your choice
+1
+Enter the name:
+Alice Smith
+Found at index 1.
+Name:Alice Smith
+Phone:0987654321
+email:alice@example.com
+Enter what you want to edit:
+ 1.Name
+ 2.Phone
+ 3.email
+Enter your choice
+1
+Enter the new name:
+devika
+
+
+
+Example Run:deleteContact
+
+Enter your choice: 4
+1.Search by name
+2.Search by phone
+3.Search by email
+Enter your choice
+2
+Enter the phone number:
+1112223333
+Found at index 2.
+Name:Bob Johnson
+Phone:1112223333
+email:bob@company.com
+Deleting contact: Bob Johnson,1112223333,bob@company.com
+Contact Deleted successfully
